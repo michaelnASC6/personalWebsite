@@ -1,0 +1,75 @@
+body{
+    background-image: url("light-bridge-background.jpg");
+    background-size: cover;
+    color: white;
+     /* position: absolute;  */
+    z-index: -300;
+    background-repeat: no-repeat;
+}
+
+.entire-title{
+    display: flex;
+    /* flex-direction: column; */
+    /* border: solid white; */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* background-color: rgba(0, 0, 0, .4); */
+    margin-top: 60px;
+    margin-bottom: 130px;
+}
+
+#title{
+    padding: 30px;
+    font-size: 30px;
+    border: solid white;
+    background-color: rgba(0, 0, 0, .6);
+    border-right: 0;
+}
+
+#selfie{
+    height: 390px;
+    width: 225px;
+    display: flex;
+    align-self: flex-end;
+    border: solid white;
+}
+
+.life-story{
+    border: solid white;
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, .4);
+    padding: 20px;
+    padding-top: 0px;
+
+}
+
+.life-story:hover{
+    background-color:rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+}
+
+.passtimes{
+    border: solid white;
+    background-color: rgba(0, 0, 0, .4);
+    padding: 20px;
+    padding-top: 0px;
+    margin-top: 30px;
+
+}
+
+.passtimes:hover{
+    background-color:rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+}
+
+.track{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: nowrap;
+}
+#track-photo{
+    float: right;
+    height: 100px;
+    width: 157px;
+    padding-top: 30px;
+}
