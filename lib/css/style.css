@@ -36,16 +36,20 @@ body{
 
 .life-story{
     border: solid white;
-    margin-top: 15px;
+    height: px50;
+    width: 300px;
+    margin-top: 5px;
     background-color: rgba(0, 0, 0, .4);
     padding: 20px;
     padding-top: 0px;
-
 }
 
 .life-story:hover{
     background-color:rgba(0, 0, 0, 0.7);
-    font-size: 18px;
+   font-size: 18px;
+    height: 300px;
+    width: 96%;
+
 }
 
 .passtimes{
@@ -67,9 +71,19 @@ body{
     /* flex-direction: row; */
     flex-wrap: nowrap;
 }
+
 #track-photo{
     float: right;
     height: 100px;
     width: 157px;
     padding-top: 30px;
 }
+
+
+p{
+    font-size: 10px;
+}
+
+p:hover{
+font-size: 18px;
+} 
