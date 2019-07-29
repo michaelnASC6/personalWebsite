@@ -1,11 +1,53 @@
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////                  //////////////////////////////////////////////////////
+///////////////////////////////////////////////////  NAVIGATION BAR  ///////////////////////////////////////////////////////
+//////////////////////////////////////////////////                  ////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#navbar {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.first-3-buttons{
+    border: solid white;
+    border-top: 3px;
+    border-bottom: 3px;
+    border-right: 3px;
+    background-color:rgba(0, 0, 0, 0);
+    padding-top: 10px;
+}
+
+a{
+    color: white;
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    border: white;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////                  //////////////////////////////////////////////////////
+///////////////////////////////////////////////////    HOME PAGE     ///////////////////////////////////////////////////////
+//////////////////////////////////////////////////                  ////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
 body{
     background-image: url("light-bridge-background.jpg");
     background-size: cover;
     color: white;
-     /* position: absolute;  */
-    z-index: -300;
+    /* position: absolute; 
+    /* z-index: -300; */
     background-repeat: no-repeat;
 }
+
+
 
 .entire-title{
     display: flex;
@@ -25,7 +67,6 @@ body{
     background-color: rgba(0, 0, 0, .6);
     border-right: 0;
 }
-
 #selfie{
     height: 390px;
     width: 225px;
@@ -34,56 +75,185 @@ body{
     border: solid white;
 }
 
-.life-story{
-    border: solid white;
-    height: px50;
-    width: 300px;
-    margin-top: 5px;
-    background-color: rgba(0, 0, 0, .4);
-    padding: 20px;
-    padding-top: 0px;
-}
-
-.life-story:hover{
-    background-color:rgba(0, 0, 0, 0.7);
-   font-size: 18px;
-    height: 300px;
-    width: 96%;
-
-}
-
-.passtimes{
-    border: solid white;
-    background-color: rgba(0, 0, 0, .4);
-    padding: 20px;
-    padding-top: 0px;
+.background{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* border: solid white; */
+    height: 220px;
+    width: 600px;
     margin-top: 30px;
-
-}
-
-.passtimes:hover{
-    background-color:rgba(0, 0, 0, 0.7);
-    font-size: 18px;
-}
-
-.track{
+    padding: 10px;
     display: flex;
-    /* flex-direction: row; */
+    flex-flow: row;
+}
+
+#who-am-i{
+    border: solid white;
+    background-color: rgba(0, 0, 0, .4);
+    height: 100%;
+    width: 100%;
+    border-width: 5px;
+    padding-left: 10px;
+}
+
+#ig-logo{
+    height: 400%;
+    width: 22.5%;
+}
+
+#insta{
+    display: flex;
+    justify-content: row;
+    height: 10px;
+    width: 300px;
+}
+
+#li-logo{
+    height: 400%;
+    width: 18.5%;
+    
+}
+
+#linkedin{
+    display: flex;
+    justify-content: row;
+    height: 10px;
+    width: 300px;
+}
+
+.social-media{
+    border: solid white;
+    background-color: rgba(0, 0, 0, .4);
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+    width: 100%;
+    border-width: 5px;
+    border-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.all-media{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap;
+    justify-content: space-between; */
+
+}
+
+.medias{
+    display: flex;
+    justify-content:  row;
+    justify-content: space-evenly;
     flex-wrap: nowrap;
 }
 
+#twitter-logo{
+height: 20%;
+width: 20%;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////                  //////////////////////////////////////////////////////
+///////////////////////////////////////////////////    LIFE STORY    ///////////////////////////////////////////////////////
+//////////////////////////////////////////////////                  ////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* .topics{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+
+.life-story{
+    border: solid white;
+    height: 300px;
+    width: 96%;
+    margin-top: 5px;
+    background-color:rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    padding-top: 0px;
+    margin-bottom: 30px;
+
+    
+}
+
+#ls-title{
+    border: solid white;
+    /* height: 40px;
+    width: 210px; */
+    margin-top: 5px;
+    background-color:rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    /* padding-top: 0px; */
+}
+
+
+
+/* .life-story:hover{
+    background-color:rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    height: 300px;
+    width: 96%;
+} */
+
+/* p:hover.life-story{
+    font-size: 18px;
+} */
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////                  //////////////////////////////////////////////////////
+///////////////////////////////////////////////////     Hobbies      ///////////////////////////////////////////////////////
+//////////////////////////////////////////////////                  ////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+#passtimes{
+    border: solid white;
+    background-color:rgba(0, 0, 0, 0.7);
+    /* padding: 20px; */
+    /* padding-top: 10px; */
+    /* margin-top: 10px; */
+    /* height: 230px;
+    width: 300px; */
+    font-size: 18px;
+    height: 50%;
+    width: 96%;
+    padding: 15px;
+    margin-bottom: 30px;
+    
+}
+
+.entire-title{
+    margin-bottom: 50px;
+}
+
+/* .passtimes:hover{
+    background-color:rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    height: 300px;
+    width: 96%; */
+/* } */
+
+/* .track{
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap;
+} */
+
 #track-photo{
     float: right;
-    height: 100px;
-    width: 157px;
-    padding-top: 30px;
+    height: 230px;
+    width: 350px;
+    display: flex;
+    align-self: flex-end;
+    border: solid white;
 }
-
-
-p{
-    font-size: 10px;
-}
-
-p:hover{
-font-size: 18px;
-} 
