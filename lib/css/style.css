@@ -127,11 +127,11 @@ body{
 } */
 
 .life-story{
-    border: solid white;
+    /* border: solid white; */
     height: 300px;
     width: 96%;
     margin-top: 5px;
-    background-color:rgba(0, 0, 0, 0.7);
+    /* background-color:rgba(0, 0, 0, 0.7); */
     padding: 20px;
     padding-top: 0px;
     margin-bottom: 30px;
@@ -159,20 +159,37 @@ body{
 #pkin{
     width: 60%;
     padding-right: 400px;
+    background-color:rgba(0, 0, 0, 0.7);
+    border: solid white;
+
 }
 
 #prek{
-    border: solid white;
+    /* border: solid white; */
     display: flex;
     justify-content: row;
+}
+
+#ps-gja{
+    
 }
 
 #brodie{
     width: 20%;
     height: 20%;
+        border: solid white;
+
 }
 
+#sonic{
+    width: 20%;
+    height: 20;
+}
 
+#grad{
+    width: 20%;
+    height: 20;
+}
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////                  //////////////////////////////////////////////////////
 ///////////////////////////////////////////////////     Hobbies      ///////////////////////////////////////////////////////
