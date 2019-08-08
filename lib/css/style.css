@@ -27,14 +27,14 @@
     border-color: grey;
 }
 
-/* a{
-    color: white;
-    display: flex;
-    text-decoration: none;
-    font-size: 20px;
-    border: white;
-} */
-
+a{
+color: white;
+display: flex;
+text-decoration: none;
+font-size: 20px;
+border: white;
+width: 100px;
+}
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////                  //////////////////////////////////////////////////////
@@ -101,8 +101,151 @@ body{
     width: 350px;
     border-width: 3px;
     padding-left: 10px;
+    font-size: 14;
     /* display: flex; */
 }
+
+
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////                  //////////////////////////////////////////////////////
+///////////////////////////////////////////////////    LIFE STORY    ///////////////////////////////////////////////////////
+//////////////////////////////////////////////////                  ////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* .topics{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+
+.life-story{
+    /* border: solid white; */
+    height: 300px;
+    width: 96%;
+    margin-top: 5px;
+    /* background-color:rgba(0, 0, 0, 0.7); */
+    padding: 20px;
+    padding-top: 0px;
+    margin-bottom: 30px;
+}
+
+#ls-title{
+    border: solid white;
+    margin-top: 5px;
+    background-color:rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+
+
+/* .life-story:hover{
+    background-color:rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    height: 300px;
+    width: 96%;
+} */
+
+/* p:hover.life-story{
+    font-size: 18px;
+} */
+#pkin{
+    width: 60%;
+    padding-right: 400px;
+    background-color:rgba(0, 0, 0, 0.7);
+    border: solid white;
+
+}
+
+#prek{
+    /* border: solid white; */
+    display: flex;
+    justify-content: row;
+}
+
+#ps-gja{
+    
+}
+
+#brodie{
+    width: 20%;
+    height: 20%;
+        border: solid white;
+
+}
+
+#sonic{
+    width: 20%;
+    height: 20;
+}
+
+#grad{
+    width: 20%;
+    height: 20;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////                  //////////////////////////////////////////////////////
+///////////////////////////////////////////////////     Hobbies      ///////////////////////////////////////////////////////
+//////////////////////////////////////////////////                  ////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+#passtimes{
+    border: solid white;
+    background-color:rgba(0, 0, 0, 0.7);
+    /* padding: 20px; */
+    /* padding-top: 10px; */
+    /* margin-top: 10px; */
+    /* height: 230px;
+    width: 300px; */
+    font-size: 18px;
+    height: 50%;
+    width: 96%;
+    padding: 15px;
+    margin-bottom: 30px;
+    
+    
+}
+
+.entire-title{
+    margin-bottom: 50px;
+}
+
+/* .passtimes:hover{
+    background-color:rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    height: 300px;
+    width: 96%; */
+/* } */
+
+/* .track{
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap;
+} */
+
+#track-photo{
+    float: right;
+    height: 230px;
+    width: 350px;
+    display: flex;
+    align-self: flex-end;
+    border: solid white;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////                  //////////////////////////////////////////////////////
+///////////////////////////////////////////////////     Contacts     ///////////////////////////////////////////////////////
+//////////////////////////////////////////////////                  ////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
 
 #ig-logo{
     /* height: 100%; */
@@ -121,7 +264,6 @@ body{
     /* height: 300%; */
     width: 50%;
     /* border: solid white; */
-    
 }
 
 #linkedin{
@@ -135,6 +277,7 @@ body{
 /* height: 10%; */
 width: 50%;
 /* border: solid white; */
+
 }
 /* .social-media{
     border: solid white;
@@ -165,6 +308,7 @@ width: 50%;
     border: solid purple;
     background-color: red;
     width: 20px;
+    
 }
 .medias{
     display: flex;
@@ -179,116 +323,5 @@ width: 50%;
     /* background-color: rgba(0, 0, 0, .7); */
     /* padding-left: -200px;
     padding-right: -200px; */
-}
-
-
-
-a{
-color: white;
-display: flex;
-text-decoration: none;
-font-size: 20px;
-border: white;
-width: 100px;
-}
-
-
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////                  //////////////////////////////////////////////////////
-///////////////////////////////////////////////////    LIFE STORY    ///////////////////////////////////////////////////////
-//////////////////////////////////////////////////                  ////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-
-/* .topics{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-} */
-
-.life-story{
-    border: solid white;
-    height: 300px;
-    width: 96%;
-    margin-top: 5px;
-    background-color:rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    padding-top: 0px;
-    margin-bottom: 30px;
-
     
-}
-
-#ls-title{
-    border: solid white;
-    /* height: 40px;
-    width: 210px; */
-    margin-top: 5px;
-    background-color:rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    /* padding-top: 0px; */
-}
-
-
-
-/* .life-story:hover{
-    background-color:rgba(0, 0, 0, 0.7);
-    font-size: 18px;
-    height: 300px;
-    width: 96%;
-} */
-
-/* p:hover.life-story{
-    font-size: 18px;
-} */
-
-
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////                  //////////////////////////////////////////////////////
-///////////////////////////////////////////////////     Hobbies      ///////////////////////////////////////////////////////
-//////////////////////////////////////////////////                  ////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-
-#passtimes{
-    border: solid white;
-    background-color:rgba(0, 0, 0, 0.7);
-    /* padding: 20px; */
-    /* padding-top: 10px; */
-    /* margin-top: 10px; */
-    /* height: 230px;
-    width: 300px; */
-    font-size: 18px;
-    height: 50%;
-    width: 96%;
-    padding: 15px;
-    margin-bottom: 30px;
-    
-}
-
-.entire-title{
-    margin-bottom: 50px;
-}
-
-/* .passtimes:hover{
-    background-color:rgba(0, 0, 0, 0.7);
-    font-size: 18px;
-    height: 300px;
-    width: 96%; */
-/* } */
-
-/* .track{
-    display: flex;
-    /* flex-direction: row; */
-    /* flex-wrap: nowrap;
-} */
-
-#track-photo{
-    float: right;
-    height: 230px;
-    width: 350px;
-    display: flex;
-    align-self: flex-end;
-    border: solid white;
 }
